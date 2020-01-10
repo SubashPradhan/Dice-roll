@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var diceImageLeft: UIImageView!
     @IBOutlet weak var diceImageRight: UIImageView!
     
+    @IBOutlet weak var logoImage: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -25,6 +26,5 @@ class ViewController: UIViewController {
         diceImageLeft.image = diceImages.randomElement()
         diceImageRight.image = diceImages.randomElement()
     }
-    
 }
 
